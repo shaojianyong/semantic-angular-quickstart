@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "semantic-angular"
+    "name": "semantic-angular-quickstart"
   },
   "apps": [
     {
@@ -19,9 +19,10 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "./assets/semantic-ui/semantic.min.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": ["./assets/jquery/jquery-3.2.1.min.js", "./assets/semantic-ui/semantic.min.js"],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
